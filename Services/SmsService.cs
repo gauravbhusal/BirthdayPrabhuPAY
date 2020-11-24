@@ -24,7 +24,7 @@ namespace Services
             try
             {
                 WebApiRequestMethods<string, string> apiRequestMethod = new WebApiRequestMethods<string, string>("https://sms.prabhupay.com:13013/cgi-bin/sendsms");
-                var response = await apiRequestMethod.GetAsync(string.Format("user=" + NcellUserName + "&pass=" + NcellPassword + "&to=977{0}&text={1}&smsc=NCELL31041", mobileNumber, System.Web.HttpUtility.UrlEncode(message)));
+                var response = await apiRequestMethod.GetAsync(string.Format("user=" + NcellUserName + "&pass=" + NcellPassword + "&to=977{0}&text={1}&smsc=NCELL31041", mobileNumber, message));
                 if (response != null && response.Equals(NcellsmsSuccessResponse))
                 {
                     return "00";
