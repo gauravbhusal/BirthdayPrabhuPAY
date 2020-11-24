@@ -1,3 +1,4 @@
+using BirthdayPrabhuPAY.ViewModel;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
@@ -44,7 +45,14 @@ namespace BirthdayPrabhuPAY
                 {
                     string mobNo = item.MobileNumber, message = response.Item1;
                     var smsResp = await _smsService.SendSMS(mobNo, message);
-                    _birthdayService.Log(new LogInfo { Message = message, MobileNumber = mobNo, Status = smsResp });
+                    SmsLogViewModel smsModel = new SmsLogViewModel()
+                    {
+                        MobileNumber = mobNo,
+                        Message = message,
+                        ResponseCode = smsResp,
+                        Remarks = "Birthday Sms"
+                    };
+                    _birthdayService.InsertSmsDataLogs(smsModel);
                 }
             }
         }

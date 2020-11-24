@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿using BirthdayPrabhuPAY.ViewModel;
+using Microsoft.Extensions.Configuration;
 using Services.Models;
 using System;
 using System.Collections.Generic;
@@ -83,11 +84,46 @@ namespace Services
                 return "99";
             }
         }
+
+        public void InsertSmsDataLogs(SmsLogViewModel model)
+        {
+            try
+            {
+                using (SqlConnection con = new SqlConnection(LogDbConn))
+                {
+                    using (SqlCommand cmd = new SqlCommand())
+                    {
+                        cmd.Connection = con;
+                        cmd.CommandType = System.Data.CommandType.StoredProcedure;
+                        cmd.CommandText = "InsertSmsLogs";
+
+                        cmd.Parameters.AddWithValue("mobileNumber", model.MobileNumber);
+                        cmd.Parameters.AddWithValue("customerId", model.CustomerId);
+                        cmd.Parameters.AddWithValue("message", model.Message);
+                        cmd.Parameters.AddWithValue("messageType", model.MessageType);
+                        cmd.Parameters.AddWithValue("transactionId", model.TransactionId);
+                        cmd.Parameters.AddWithValue("responseCode", model.ResponseCode);
+                        cmd.Parameters.AddWithValue("responseMessage", model.ResponseMessage);
+                        cmd.Parameters.AddWithValue("remarks", model.Remarks);
+                        cmd.Parameters.AddWithValue("lastUpdatedById", model.LastUpdatedById);
+                        cmd.Parameters.AddWithValue("flag", model.Flag);
+
+                        con.Open();
+                        cmd.ExecuteNonQuery();
+                        con.Close();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+            }
+        }
     }
 
     public interface IBirthdayService
     {
         Tuple<string, List<CustomerInfo>> GetCustomers();
         string Log(LogInfo log);
+        void InsertSmsDataLogs(SmsLogViewModel model);
     }
 }
