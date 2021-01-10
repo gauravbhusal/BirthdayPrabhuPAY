@@ -11,8 +11,8 @@ namespace Services
     public class BirthdayService : IBirthdayService
     {
         private readonly IConfiguration _config;
-        string dbConn = "";
-        string LogDbConn = "";
+        readonly string dbConn = "";
+        readonly string LogDbConn = "";
 
         public BirthdayService(IConfiguration config)
         {

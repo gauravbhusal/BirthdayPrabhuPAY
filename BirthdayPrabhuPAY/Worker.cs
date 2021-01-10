@@ -4,6 +4,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Services;
 using Services.Models;
+using System;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
@@ -39,6 +40,8 @@ namespace BirthdayPrabhuPAY
         {
             var response = _birthdayService.GetCustomers();
 
+            Console.WriteLine("*************");
+            Console.WriteLine("Processing...");
             if (response.Item2.Count() > 0)
             {
                 foreach (var item in response.Item2)
@@ -54,6 +57,7 @@ namespace BirthdayPrabhuPAY
                     };
                     _birthdayService.InsertSmsDataLogs(smsModel);
                 }
+                Console.WriteLine("Success!");
             }
         }
     }
