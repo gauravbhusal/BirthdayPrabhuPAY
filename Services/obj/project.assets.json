@@ -1632,11 +1632,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gaura\\Desktop\\New folder\\BirthdayPrabhuPAY\\Services\\Services.csproj",
+      "projectUniqueName": "C:\\Users\\gaura\\Desktop\\New folder\\New folder\\BirthdayPrabhuPAY\\Services\\Services.csproj",
       "projectName": "Services",
-      "projectPath": "C:\\Users\\gaura\\Desktop\\New folder\\BirthdayPrabhuPAY\\Services\\Services.csproj",
+      "projectPath": "C:\\Users\\gaura\\Desktop\\New folder\\New folder\\BirthdayPrabhuPAY\\Services\\Services.csproj",
       "packagesPath": "C:\\Users\\gaura\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gaura\\Desktop\\New folder\\BirthdayPrabhuPAY\\Services\\obj\\",
+      "outputPath": "C:\\Users\\gaura\\Desktop\\New folder\\New folder\\BirthdayPrabhuPAY\\Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
