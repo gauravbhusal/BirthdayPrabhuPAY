@@ -1,17 +1,17 @@
-C:\Users\gaura\Desktop\New folder\BirthdayPrabhuPAY\BirthdayPrabhuPAY\bin\Debug\netcoreapp2.0\appsettings.Development.json
-C:\Users\gaura\Desktop\New folder\BirthdayPrabhuPAY\BirthdayPrabhuPAY\bin\Debug\netcoreapp2.0\appsettings.json
-C:\Users\gaura\Desktop\New folder\BirthdayPrabhuPAY\BirthdayPrabhuPAY\bin\Debug\netcoreapp2.0\BirthdayPrabhuPAY.deps.json
-C:\Users\gaura\Desktop\New folder\BirthdayPrabhuPAY\BirthdayPrabhuPAY\bin\Debug\netcoreapp2.0\BirthdayPrabhuPAY.runtimeconfig.json
-C:\Users\gaura\Desktop\New folder\BirthdayPrabhuPAY\BirthdayPrabhuPAY\bin\Debug\netcoreapp2.0\BirthdayPrabhuPAY.runtimeconfig.dev.json
-C:\Users\gaura\Desktop\New folder\BirthdayPrabhuPAY\BirthdayPrabhuPAY\bin\Debug\netcoreapp2.0\BirthdayPrabhuPAY.dll
-C:\Users\gaura\Desktop\New folder\BirthdayPrabhuPAY\BirthdayPrabhuPAY\bin\Debug\netcoreapp2.0\BirthdayPrabhuPAY.pdb
-C:\Users\gaura\Desktop\New folder\BirthdayPrabhuPAY\BirthdayPrabhuPAY\bin\Debug\netcoreapp2.0\Services.dll
-C:\Users\gaura\Desktop\New folder\BirthdayPrabhuPAY\BirthdayPrabhuPAY\bin\Debug\netcoreapp2.0\Services.pdb
-C:\Users\gaura\Desktop\New folder\BirthdayPrabhuPAY\BirthdayPrabhuPAY\obj\Debug\netcoreapp2.0\BirthdayPrabhuPAY.csprojAssemblyReference.cache
-C:\Users\gaura\Desktop\New folder\BirthdayPrabhuPAY\BirthdayPrabhuPAY\obj\Debug\netcoreapp2.0\BirthdayPrabhuPAY.AssemblyInfoInputs.cache
-C:\Users\gaura\Desktop\New folder\BirthdayPrabhuPAY\BirthdayPrabhuPAY\obj\Debug\netcoreapp2.0\BirthdayPrabhuPAY.AssemblyInfo.cs
-C:\Users\gaura\Desktop\New folder\BirthdayPrabhuPAY\BirthdayPrabhuPAY\obj\Debug\netcoreapp2.0\BirthdayPrabhuPAY.csproj.CoreCompileInputs.cache
-C:\Users\gaura\Desktop\New folder\BirthdayPrabhuPAY\BirthdayPrabhuPAY\obj\Debug\netcoreapp2.0\BirthdayPrabhuPAY.csproj.CopyComplete
-C:\Users\gaura\Desktop\New folder\BirthdayPrabhuPAY\BirthdayPrabhuPAY\obj\Debug\netcoreapp2.0\BirthdayPrabhuPAY.dll
-C:\Users\gaura\Desktop\New folder\BirthdayPrabhuPAY\BirthdayPrabhuPAY\obj\Debug\netcoreapp2.0\BirthdayPrabhuPAY.pdb
-C:\Users\gaura\Desktop\New folder\BirthdayPrabhuPAY\BirthdayPrabhuPAY\obj\Debug\netcoreapp2.0\BirthdayPrabhuPAY.genruntimeconfig.cache
+C:\Users\gaura\Desktop\New folder\New folder\BirthdayPrabhuPAY\BirthdayPrabhuPAY\bin\Debug\netcoreapp2.0\appsettings.Development.json
+C:\Users\gaura\Desktop\New folder\New folder\BirthdayPrabhuPAY\BirthdayPrabhuPAY\bin\Debug\netcoreapp2.0\appsettings.json
+C:\Users\gaura\Desktop\New folder\New folder\BirthdayPrabhuPAY\BirthdayPrabhuPAY\bin\Debug\netcoreapp2.0\BirthdayPrabhuPAY.deps.json
+C:\Users\gaura\Desktop\New folder\New folder\BirthdayPrabhuPAY\BirthdayPrabhuPAY\bin\Debug\netcoreapp2.0\BirthdayPrabhuPAY.runtimeconfig.json
+C:\Users\gaura\Desktop\New folder\New folder\BirthdayPrabhuPAY\BirthdayPrabhuPAY\bin\Debug\netcoreapp2.0\BirthdayPrabhuPAY.runtimeconfig.dev.json
+C:\Users\gaura\Desktop\New folder\New folder\BirthdayPrabhuPAY\BirthdayPrabhuPAY\bin\Debug\netcoreapp2.0\BirthdayPrabhuPAY.dll
+C:\Users\gaura\Desktop\New folder\New folder\BirthdayPrabhuPAY\BirthdayPrabhuPAY\bin\Debug\netcoreapp2.0\BirthdayPrabhuPAY.pdb
+C:\Users\gaura\Desktop\New folder\New folder\BirthdayPrabhuPAY\BirthdayPrabhuPAY\bin\Debug\netcoreapp2.0\Services.dll
+C:\Users\gaura\Desktop\New folder\New folder\BirthdayPrabhuPAY\BirthdayPrabhuPAY\bin\Debug\netcoreapp2.0\Services.pdb
+C:\Users\gaura\Desktop\New folder\New folder\BirthdayPrabhuPAY\BirthdayPrabhuPAY\obj\Debug\netcoreapp2.0\BirthdayPrabhuPAY.csprojAssemblyReference.cache
+C:\Users\gaura\Desktop\New folder\New folder\BirthdayPrabhuPAY\BirthdayPrabhuPAY\obj\Debug\netcoreapp2.0\BirthdayPrabhuPAY.AssemblyInfoInputs.cache
+C:\Users\gaura\Desktop\New folder\New folder\BirthdayPrabhuPAY\BirthdayPrabhuPAY\obj\Debug\netcoreapp2.0\BirthdayPrabhuPAY.AssemblyInfo.cs
+C:\Users\gaura\Desktop\New folder\New folder\BirthdayPrabhuPAY\BirthdayPrabhuPAY\obj\Debug\netcoreapp2.0\BirthdayPrabhuPAY.csproj.CoreCompileInputs.cache
+C:\Users\gaura\Desktop\New folder\New folder\BirthdayPrabhuPAY\BirthdayPrabhuPAY\obj\Debug\netcoreapp2.0\BirthdayPrabhuPAY.csproj.CopyComplete
+C:\Users\gaura\Desktop\New folder\New folder\BirthdayPrabhuPAY\BirthdayPrabhuPAY\obj\Debug\netcoreapp2.0\BirthdayPrabhuPAY.dll
+C:\Users\gaura\Desktop\New folder\New folder\BirthdayPrabhuPAY\BirthdayPrabhuPAY\obj\Debug\netcoreapp2.0\BirthdayPrabhuPAY.pdb
+C:\Users\gaura\Desktop\New folder\New folder\BirthdayPrabhuPAY\BirthdayPrabhuPAY\obj\Debug\netcoreapp2.0\BirthdayPrabhuPAY.genruntimeconfig.cache

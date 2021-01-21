@@ -1,9 +1,6 @@
 using BirthdayPrabhuPAY.ViewModel;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Services;
-using Services.Models;
 using System;
 using System.Linq;
 using System.Threading;
@@ -40,8 +37,6 @@ namespace BirthdayPrabhuPAY
         {
             var response = _birthdayService.GetCustomers();
 
-            Console.WriteLine("*************");
-            Console.WriteLine("Processing...");
             if (response.Item2.Count() > 0)
             {
                 foreach (var item in response.Item2)
@@ -56,9 +51,12 @@ namespace BirthdayPrabhuPAY
                         Remarks = "Birthday Sms"
                     };
                     _birthdayService.InsertSmsDataLogs(smsModel);
+                    Console.WriteLine($"\n SMS to {item.MobileNumber}. Status: {smsResp}");
                 }
-                Console.WriteLine("Success!");
+                Console.WriteLine("****************************");
+                Console.WriteLine("Completed. Number of customer found: " + response.Item2.Count());
             }
         }
+
     }
 }
