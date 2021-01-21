@@ -9,7 +9,8 @@
       "BirthdayPrabhuPAY/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Hosting": "3.1.6",
-          "Services": "1.0.0"
+          "Services": "1.0.0",
+          "System.Runtime": "4.3.1"
         },
         "runtime": {
           "BirthdayPrabhuPAY.dll": {}
@@ -378,6 +379,7 @@
         }
       },
       "Microsoft.NETCore.Platforms/3.1.0": {},
+      "Microsoft.NETCore.Targets/1.1.3": {},
       "Microsoft.Win32.Registry/4.7.0": {
         "dependencies": {
           "System.Memory": "4.5.4",
@@ -567,6 +569,12 @@
         }
       },
       "System.Reflection.DispatchProxy/4.4.0": {},
+      "System.Runtime/4.3.1": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0",
+          "Microsoft.NETCore.Targets": "1.1.3"
+        }
+      },
       "System.Runtime.CompilerServices.Unsafe/5.0.0": {
         "runtime": {
           "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
@@ -742,6 +750,7 @@
           "Microsoft.Extensions.Configuration.Abstractions": "5.0.0",
           "RestSharp": "106.11.7",
           "System.Data.SqlClient": "4.8.2",
+          "System.Runtime": "4.3.1",
           "System.ServiceModel.Duplex": "4.4.0",
           "System.ServiceModel.Http": "4.4.0",
           "System.ServiceModel.NetTcp": "4.4.0",
@@ -976,6 +985,13 @@
       "path": "microsoft.netcore.platforms/3.1.0",
       "hashPath": "microsoft.netcore.platforms.3.1.0.nupkg.sha512"
     },
+    "Microsoft.NETCore.Targets/1.1.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3Wrmi0kJDzClwAC+iBdUBpEKmEle8FQNsCs77fkiOIw/9oYA07bL1EZNX0kQ2OMN3xpwvl0vAtOCYY3ndDNlhQ==",
+      "path": "microsoft.netcore.targets/1.1.3",
+      "hashPath": "microsoft.netcore.targets.1.1.3.nupkg.sha512"
+    },
     "Microsoft.Win32.Registry/4.7.0": {
       "type": "package",
       "serviceable": true,
@@ -1073,6 +1089,13 @@
       "sha512": "sha512-xK6JE0mpsBD+T0qu3V6dmVRa06PxAvIIM/zSjouqP7Sk6X+FQj+9XFRz9GmZk9aJGMU1LX6AgTZIlsYZ64QKsw==",
       "path": "system.reflection.dispatchproxy/4.4.0",
       "hashPath": "system.reflection.dispatchproxy.4.4.0.nupkg.sha512"
+    },
+    "System.Runtime/4.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-abhfv1dTK6NXOmu4bgHIONxHyEqFjW8HwXPmpY9gmll+ix9UNo4XDcmzJn6oLooftxNssVHdJC1pGT9jkSynQg==",
+      "path": "system.runtime/4.3.1",
+      "hashPath": "system.runtime.4.3.1.nupkg.sha512"
     },
     "System.Runtime.CompilerServices.Unsafe/5.0.0": {
       "type": "package",
