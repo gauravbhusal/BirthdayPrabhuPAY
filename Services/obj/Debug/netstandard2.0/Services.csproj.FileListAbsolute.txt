@@ -42,3 +42,4 @@ C:\Users\gaura\Desktop\New folder\New folder\BirthdayPrabhuPAY\Services\obj\Debu
 C:\Users\gaura\Desktop\New folder\New folder\BirthdayPrabhuPAY\Services\obj\Debug\netstandard2.0\Services.csproj.CoreCompileInputs.cache
 C:\Users\gaura\Desktop\New folder\New folder\BirthdayPrabhuPAY\Services\obj\Debug\netstandard2.0\Services.dll
 C:\Users\gaura\Desktop\New folder\New folder\BirthdayPrabhuPAY\Services\obj\Debug\netstandard2.0\Services.pdb
+C:\Users\gaura\Desktop\New folder\BirthdayPrabhuPAY\Services\obj\Debug\netstandard2.0\Services.csproj.CoreCompileInputs.cache

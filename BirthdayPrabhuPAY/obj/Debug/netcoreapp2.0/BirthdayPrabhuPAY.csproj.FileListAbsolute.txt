@@ -31,3 +31,4 @@ C:\Users\gaura\Desktop\New folder\BirthdayPrabhuPAY\BirthdayPrabhuPAY\obj\Debug\
 C:\Users\gaura\Desktop\New folder\BirthdayPrabhuPAY\BirthdayPrabhuPAY\obj\Debug\netcoreapp2.0\BirthdayPrabhuPAY.dll
 C:\Users\gaura\Desktop\New folder\BirthdayPrabhuPAY\BirthdayPrabhuPAY\obj\Debug\netcoreapp2.0\BirthdayPrabhuPAY.pdb
 C:\Users\gaura\Desktop\New folder\BirthdayPrabhuPAY\BirthdayPrabhuPAY\obj\Debug\netcoreapp2.0\BirthdayPrabhuPAY.genruntimeconfig.cache
+C:\Users\gaura\Desktop\New folder\BirthdayPrabhuPAY\BirthdayPrabhuPAY\obj\Debug\netcoreapp2.0\BirthdayPrabhuPAY.csproj.CoreCompileInputs.cache
