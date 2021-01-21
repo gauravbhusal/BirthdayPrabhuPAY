@@ -2,9 +2,7 @@ using BirthdayPrabhuPAY.ViewModel;
 using Microsoft.Extensions.Hosting;
 using Services;
 using System;
-using System.IO;
 using System.Linq;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -45,7 +43,6 @@ namespace BirthdayPrabhuPAY
                 {
                     string mobNo = item.MobileNumber, message = response.Item1;
                     var smsResp = await _smsService.SendSMS(mobNo, message);
-                    //_birthdayService.Log(new LogInfo { Message = message, MobileNumber = mobNo, Status = smsResp });
                     SmsLogViewModel smsModel = new SmsLogViewModel()
                     {
                         MobileNumber = mobNo,
@@ -54,7 +51,6 @@ namespace BirthdayPrabhuPAY
                         Remarks = "Birthday Sms"
                     };
                     _birthdayService.InsertSmsDataLogs(smsModel);
-                    //LogToTextFile(mobNo, message, smsResp);
                     Console.WriteLine($"\n SMS to {item.MobileNumber}. Status: {smsResp}");
                 }
                 Console.WriteLine("****************************");
@@ -62,12 +58,5 @@ namespace BirthdayPrabhuPAY
             }
         }
 
-        private void LogToTextFile(string mobNo, string message, string smsResp)
-        {
-            StringBuilder sb = new StringBuilder();
-            sb.Append($"{mobNo} :: {message} :: {smsResp}");
-            File.AppendAllText("./" + "log.txt", sb.ToString());
-            sb.Clear();
-        }
     }
 }
