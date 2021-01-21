@@ -27,7 +27,7 @@ namespace BirthdayPrabhuPAY
             {
                 if (go)
                 {
-                    await SendBirthdaySMS();
+                    //await SendBirthdaySMS();
                     go = false;
                 }
             }
