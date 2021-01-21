@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "OxLsjrllDzz1j4feCZmFC2NBwFgoCnY5wnLOH3xkDsG/Hx9kMBFmAn5IWzM0DqJnqWu0zwzliF4g1Znnm8sLlw==",
+  "dgSpecHash": "iQGkn/Yh1LNDz0O2h6Pjwjt6QBRxZIuuYcc24QrxHcBsZ2md+LV528bxIQXDu+LYo0wqzQCuxL1TtW98j+FrOw==",
   "success": true,
   "projectFilePath": "C:\\Users\\gaura\\Desktop\\New folder\\BirthdayPrabhuPAY\\Services\\Services.csproj",
   "expectedPackageFiles": [
@@ -41,7 +41,8 @@
     "C:\\Users\\gaura\\.nuget\\packages\\system.servicemodel.primitives\\4.4.0\\system.servicemodel.primitives.4.4.0.nupkg.sha512",
     "C:\\Users\\gaura\\.nuget\\packages\\system.servicemodel.security\\4.4.0\\system.servicemodel.security.4.4.0.nupkg.sha512",
     "C:\\Users\\gaura\\.nuget\\packages\\system.text.encoding.codepages\\4.7.0\\system.text.encoding.codepages.4.7.0.nupkg.sha512",
-    "C:\\Users\\gaura\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
+    "C:\\Users\\gaura\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512",
+    "C:\\Users\\gaura\\.nuget\\packages\\ubiety.dns.core\\2.4.1\\ubiety.dns.core.2.4.1.nupkg.sha512"
   ],
   "logs": []
 }

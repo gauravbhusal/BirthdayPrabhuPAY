@@ -490,6 +490,15 @@
         "runtime": {
           "lib/netstandard2.0/System.Text.Encodings.Web.dll": {}
         }
+      },
+      "Ubiety.Dns.Core/2.4.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Ubiety.Dns.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Ubiety.Dns.Core.dll": {}
+        }
       }
     }
   },
@@ -1735,6 +1744,19 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Ubiety.Dns.Core/2.4.1": {
+      "sha512": "IMOnFznd4NB4UynLOtBADIme9xjsptzZxpgAnmd2y7o8nzmafgtNwjg1pk8n/KPKKwzyb01AdTW/UCiX9ex/3g==",
+      "type": "package",
+      "path": "ubiety.dns.core/2.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Ubiety.Dns.Core.dll",
+        "lib/netstandard2.0/Ubiety.Dns.Core.xml",
+        "ubiety.dns.core.2.4.1.nupkg.sha512",
+        "ubiety.dns.core.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
@@ -1748,7 +1770,8 @@
       "System.ServiceModel.Duplex >= 4.4.0",
       "System.ServiceModel.Http >= 4.4.0",
       "System.ServiceModel.NetTcp >= 4.4.0",
-      "System.ServiceModel.Security >= 4.4.0"
+      "System.ServiceModel.Security >= 4.4.0",
+      "Ubiety.Dns.Core >= 2.4.1"
     ]
   },
   "packageFolders": {
@@ -1836,6 +1859,10 @@
           "System.ServiceModel.Security": {
             "target": "Package",
             "version": "[4.4.0, )"
+          },
+          "Ubiety.Dns.Core": {
+            "target": "Package",
+            "version": "[2.4.1, )"
           }
         },
         "imports": [

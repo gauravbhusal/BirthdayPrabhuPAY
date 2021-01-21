@@ -15,6 +15,7 @@
     <PackageReference Include="System.ServiceModel.NetTcp" Version="4.4.0" />
     <PackageReference Include="System.ServiceModel.Security" Version="4.4.0" />
     <PackageReference Include="System.Runtime" Version="4.3.1" />
+    <PackageReference Include="Ubiety.Dns.Core" Version="2.4.1" />
   </ItemGroup>
 
   <ItemGroup>

@@ -60,6 +60,10 @@
             "System.Runtime": {
               "target": "Package",
               "version": "[4.3.1, )"
+            },
+            "Ubiety.Dns.Core": {
+              "target": "Package",
+              "version": "[2.4.1, )"
             }
           },
           "imports": [
