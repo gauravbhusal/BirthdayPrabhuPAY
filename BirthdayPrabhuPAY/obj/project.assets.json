@@ -2912,11 +2912,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gaura\\Desktop\\New folder\\New folder\\BirthdayPrabhuPAY\\BirthdayPrabhuPAY\\BirthdayPrabhuPAY.csproj",
+      "projectUniqueName": "C:\\Users\\gaura\\Desktop\\New folder\\BirthdayPrabhuPAY\\BirthdayPrabhuPAY\\BirthdayPrabhuPAY.csproj",
       "projectName": "BirthdayPrabhuPAY",
-      "projectPath": "C:\\Users\\gaura\\Desktop\\New folder\\New folder\\BirthdayPrabhuPAY\\BirthdayPrabhuPAY\\BirthdayPrabhuPAY.csproj",
+      "projectPath": "C:\\Users\\gaura\\Desktop\\New folder\\BirthdayPrabhuPAY\\BirthdayPrabhuPAY\\BirthdayPrabhuPAY.csproj",
       "packagesPath": "C:\\Users\\gaura\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gaura\\Desktop\\New folder\\New folder\\BirthdayPrabhuPAY\\BirthdayPrabhuPAY\\obj\\",
+      "outputPath": "C:\\Users\\gaura\\Desktop\\New folder\\BirthdayPrabhuPAY\\BirthdayPrabhuPAY\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -2937,8 +2937,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\gaura\\Desktop\\New folder\\New folder\\BirthdayPrabhuPAY\\Services\\Services.csproj": {
-              "projectPath": "C:\\Users\\gaura\\Desktop\\New folder\\New folder\\BirthdayPrabhuPAY\\Services\\Services.csproj"
+            "C:\\Users\\gaura\\Desktop\\New folder\\BirthdayPrabhuPAY\\Services\\Services.csproj": {
+              "projectPath": "C:\\Users\\gaura\\Desktop\\New folder\\BirthdayPrabhuPAY\\Services\\Services.csproj"
             }
           }
         }

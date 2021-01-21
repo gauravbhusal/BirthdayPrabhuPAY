@@ -14,7 +14,7 @@ namespace BirthdayPrabhuPAY
         private readonly ISmsService _smsService;
 
 
-        public Worker(IBirthdayService birthdayService, ISmsService smsService)
+        public Worker(IBirthdayService birthdayService, ISmsService smsService) 
         {
             _birthdayService = birthdayService;
             _smsService = smsService;
