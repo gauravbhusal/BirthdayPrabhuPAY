@@ -1,9 +1,6 @@
 using BirthdayPrabhuPAY.ViewModel;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Services;
-using Services.Models;
 using System;
 using System.IO;
 using System.Linq;
