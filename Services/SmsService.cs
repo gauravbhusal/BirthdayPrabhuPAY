@@ -22,7 +22,7 @@ namespace Services
 
         private readonly IUtility client;
         //private readonly IHostingEnvironment _hostingEnvironment;
-        public SmsService(IConfiguration config/*, IHostingEnvironment hostingEnvironment*/)
+        public SmsService(IConfiguration config /*, IHostingEnvironment hostingEnvironment*/)
         {
             _config = config;
             NcellUserName = _config.GetSection("NCell").GetSection("NcellUserName").Value;
