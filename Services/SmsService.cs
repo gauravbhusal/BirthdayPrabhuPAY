@@ -41,6 +41,7 @@ namespace Services
         {
             try
             {
+                //return "100";
                 if (mobileNumber.Substring(0, 3).Equals("980") || mobileNumber.Substring(0, 3).Equals("981") || mobileNumber.Substring(0, 3).Equals("982"))
                 {
                     return await SmsViaNcell(mobileNumber, message);
